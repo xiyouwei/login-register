@@ -3,6 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import installElementPlus from './plugins/element.js'
+
+import 'normalize.css/normalize.css'
+import './assets/iconfont/iconfont.css'
+
 const app = createApp(App)
 installElementPlus(app)
 
