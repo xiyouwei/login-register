@@ -6,6 +6,7 @@ import installElementPlus from './plugins/element.js'
 
 import 'normalize.css/normalize.css'
 import './assets/iconfont/iconfont.css'
+import './assets/style/main.css'
 
 const app = createApp(App)
 installElementPlus(app)
